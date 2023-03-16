@@ -9,5 +9,5 @@ def CálculoIdade (AnoAtual, Nascimento):
 idadeA = CálculoIdade (AnoAtual, NascimentoA)
 idadeB = CálculoIdade (AnoAtual, NascimentoB)
 
-print ("A idade de Serhumano1 é", idadeA, "anos.")
-print ("A idade de Serhumano2 é", idadeB, "anos.")
+print ("A idade de Serhumano1 é " + str(idadeA) + " anos.")
+print ("A idade de Serhumano2 é " + str(idadeB) + " anos.")
